@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1750.0" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="sample.Controller">
+
+    <children>
+        <Text layoutX="605" layoutY="72" text="TRAIN QUEUE">
+            <font>
+                <Font size="42" />
+            </font>
+        </Text>
+
+
+
+        <Label fx:id="label1" layoutX="21" layoutY="126" prefHeight="90" prefWidth="284" style="-fx-background-color: grey;" text="1">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="label2" layoutX="21" layoutY="223" prefHeight="90" prefWidth="284" style="-fx-background-color: grey;" text="2">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="label3" layoutX="21" layoutY="325" prefHeight="90" prefWidth="284" style="-fx-background-color: grey;" text="3">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="label4" layoutX="21" layoutY="426" prefHeight="90" prefWidth="284.0" style="-fx-background-color: grey;" text="4">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="label5" layoutX="21" layoutY="525" prefHeight="90" prefWidth="284" style="-fx-background-color: grey;" text="5">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="label6" layoutX="21" layoutY="623" prefHeight="90" prefWidth="284" style="-fx-background-color: grey;" text="6">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat1" layoutX="353" layoutY="164" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="1">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat2" layoutX="353" layoutY="217" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="2">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat3" layoutX="353" layoutY="270" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="3">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat4" layoutX="353" layoutY="329" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="4">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat5" layoutX="353" layoutY="386" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="5">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat6" layoutX="353" layoutY="441" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="6">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat7" layoutX="353" layoutY="498" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="7">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat8" layoutX="353" layoutY="553" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="8">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat9" layoutX="353" layoutY="608" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="9">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat10" layoutX="353" layoutY="663" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="10">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat11" layoutX="353" layoutY="713" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="11">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat12" layoutX="565" layoutY="166" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="12">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat13" layoutX="565" layoutY="219" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="13">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat14" layoutX="565" layoutY="278" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="14">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat15" layoutX="565" layoutY="333" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="15">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat16" layoutX="565" layoutY="388" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="16">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat17" layoutX="565" layoutY="445" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="17">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat18" layoutX="565" layoutY="500" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="18">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat19" layoutX="565" layoutY="555" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="19">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat20" layoutX="565" layoutY="611" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="20">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat21" layoutX="565" layoutY="662" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="21">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat22" layoutX="565" layoutY="713" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="22">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat23" layoutX="782" layoutY="162" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="23">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat24" layoutX="782" layoutY="215" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="24">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat25" layoutX="782" layoutY="268" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="25">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+
+        <Label fx:id="seat26" layoutX="782" layoutY="327" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="26">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat27" layoutX="782" layoutY="382.0" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="27">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat28" layoutX="782" layoutY="437" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="28">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat29" layoutX="782" layoutY="494" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="29">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat30" layoutX="782" layoutY="549" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="30">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat31" layoutX="782" layoutY="604" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="31">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat32" layoutX="782" layoutY="660" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="32">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat33" layoutX="782" layoutY="713" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="33">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat34" layoutX="999" layoutY="161" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="34">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat35" layoutX="999" layoutY="214" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="35">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat36" layoutX="999" layoutY="267" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="36">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat37" layoutX="999" layoutY="326" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="37">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat38" layoutX="999" layoutY="381" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="38">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat39" layoutX="999" layoutY="436" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="39">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat40" layoutX="999" layoutY="493" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="40">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat41" layoutX="999" layoutY="548" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="41">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+        <Label fx:id="seat42" layoutX="999" layoutY="604" prefHeight="44" prefWidth="205" style="-fx-background-color: grey;" text="42">
+            <font>
+                <Font size="17" />
+            </font>
+        </Label>
+
+
+
+        <Text layoutX="25" layoutY="67" text="PASSANGERS TO BE ADDED TO QUEUE">
+            <font>
+                <Font size="26" />
+            </font>
+        </Text>
+
+
+
+        <Button fx:id="button1" layoutX="1017" layoutY="685" mnemonicParsing="false" onAction="#prompt" prefHeight="69" prefWidth="169" text="CALLING FUNCTIONS" />
+
+
+
+      <Pane layoutX="1218" layoutY="161" prefHeight="487" prefWidth="508" style="-fx-background-color: #C8C8C8;">
+
+
+         <children>
+            <Label layoutX="14" layoutY="14" prefHeight="69" prefWidth="232" text="REPORT">
+               <font>
+                  <Font size="35" />
+               </font>
+            </Label>
+
+
+
+
+            <Text layoutX="14" layoutY="142" text="Maximum lenght of queue  :">
+               <font>
+                  <Font size="20" />
+               </font>
+            </Text>
+
+            <Text layoutX="14" layoutY="228" text="Maximum Waiting time :">
+               <font>
+                  <Font size="20" />
+               </font>
+            </Text>
+
+            <Text layoutX="15" layoutY="396" text="Average Waiting time :">
+               <font>
+                  <Font size="20" />
+               </font>
+            </Text>
+
+            <Text layoutX="15" layoutY="312" text="Minimum Waiting time :">
+               <font>
+                  <Font size="20" />
+               </font>
+            </Text>
+
+
+
+             <Label fx:id="MaxLenght" layoutX="270" layoutY="112" prefHeight="44" prefWidth="214" style="-fx-background-color: white;" text="- EMPTY -">
+                 <font>
+                     <Font size="22" />
+                 </font>
+             </Label>
+
+
+
+             <Label fx:id="MaximumWaitingTime" layoutX="270" layoutY="198" prefHeight="44" prefWidth="214" style="-fx-background-color: white;" text="- EMPTY -">
+                 <font>
+                     <Font size="22" />
+                 </font>
+             </Label>
+
+
+             <Label fx:id="MinimumWaitingTime" layoutX="270" layoutY="282" prefHeight="44" prefWidth="214" style="-fx-background-color: white;" text=" - EMPTY - ">
+                 <font>
+                     <Font size="22" />
+                 </font>
+             </Label>
+
+
+            <Label fx:id="AverageWaitingTime" layoutX="270" layoutY="366" prefHeight="44" prefWidth="214" style="-fx-background-color: white;" text=" - EMPTY - ">
+               <font>
+                  <Font size="22" />
+               </font>
+            </Label>
+
+
+         </children>
+      </Pane>
+      <Label layoutX="75" layoutY="735" text="a" fx:id="test">
+         <font>
+            <Font size="1" />
+         </font>
+      </Label>
+
+    </children>
+
+</Pane>
